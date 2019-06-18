@@ -1,8 +1,11 @@
 node {
-	  stage 'checkout' {
-            steps {
-                sh 'mvn --version'
-		echo 'checkout'
-            }
-        }
-  }
+    stage('Build') {
+        echo 'Building....'
+    }
+    stage('Test') {
+        echo 'Testing....'
+    }
+    stage('Deploy') {
+        echo 'Deploying....'
+    }
+}
