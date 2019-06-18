@@ -1,11 +1,8 @@
-pipeline {
-	agent any
-     stages {
-        stage('checkout') {
+node {
+	  stage('checkout') {
             steps {
                 sh 'mvn --version'
 		echo 'checkout'
             }
         }
-    }
-}
+  }
