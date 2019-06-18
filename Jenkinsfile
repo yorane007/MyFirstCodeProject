@@ -1,7 +1,7 @@
 Pipeline {
-   
-    stage 'checkout' 
-	{
-	    echo 'checkout'	
-    }
+	Stages {
+		stage ('checkout') {
+	    		echo 'checkout'	
+    		}
+	}
 }
