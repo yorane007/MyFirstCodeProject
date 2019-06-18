@@ -1,5 +1,5 @@
 node {
-	  stage('checkout') {
+	  stage 'checkout' {
             steps {
                 sh 'mvn --version'
 		echo 'checkout'
