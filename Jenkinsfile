@@ -1,5 +1,5 @@
-Pipeline {
-	Stages {
+pipeline {
+	stages {
 		stage ('checkout') {
 	    		echo 'checkout'	
     		}
